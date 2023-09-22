@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    
+    <div class="game-board">
+        <div class="game-details">
+            <span class="score">Score: 0</span>
+            <span class="high-score">High Score: 0</span>
+        </div>
+       
+
+        <div class="play-board">
+            
+        </div>
+        <div class="menu">
+            <h2>Oops! You died!</h2>
+                <label>Speed:<input type="text" class="speed" placeholder="Enter Speed (Default: 10)"></label>
+                <label>Snake-Color:<input type="color" class="snake_color"></label>
+                <label>Food-Color:<input type="color" class="food_color"></label>
+    
+            <button class="replay">Replay</button>
+            <button class="reset">Reset High Score</button>
+
+
+
+        </div>
+
+        <div class="controls">
+            <button data-key ="ArrowUp" class="btn" id="up">Up</button>
+            <button data-key ="ArrowDown" class="btn" id="down">Down</button>
+            <button data-key ="ArrowLeft" class="btn" id="left">Left</button>
+            <button data-key ="ArrowRight" class="btn" id="right">Right</button>
+        </div>
+    </div>
+
+
+    <script src="./js/index.js" defer></script>
+</body>
+</html>
